@@ -18,7 +18,7 @@
       "QL_CLIENTID": "",
       //青龙2,9 OpenApi Client Secret
       "QL_SECRET": "",
-      //青龙面包最大ck容量
+      //青龙面板最大ck容量
       "QL_CAPACITY": 600,
       //消息推送二维码
       "QRurl":""
