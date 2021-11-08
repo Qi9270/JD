@@ -15,9 +15,9 @@
       //青龙url
       "QLurl": "http://59.110.24.247:5700",
       //青龙2,9 OpenApi Client ID
-      "QL_CLIENTID": "",
+      "QL_CLIENTID": "Z-9_zUJjw9i0",
       //青龙2,9 OpenApi Client Secret
-      "QL_SECRET": "",
+      "QL_SECRET": "qUhmtaVynq93l_Xw6AVoVzgu",
       //青龙面板最大ck容量
       "QL_CAPACITY": 600,
       //消息推送二维码
