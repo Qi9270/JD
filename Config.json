@@ -13,7 +13,7 @@
       //服务器名称
       "QLName": "阿里云",
       //青龙url
-      "QLurl": "http://:5700",
+      "QLurl": "http://59.110.24.247:5700",
       //青龙2,9 OpenApi Client ID
       "QL_CLIENTID": "",
       //青龙2,9 OpenApi Client Secret
