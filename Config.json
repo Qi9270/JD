@@ -1,27 +1,41 @@
 {
-  ///最大支持几个网页
-  "MaxTab": "6",
+  ///浏览器最多几个网页
+  "MaxTab": "4",
   //网站标题
-  "Title": "为了您的财产安全，请关闭京东免密支付",
+  "Title": "NolanJDCloud",
+  //回收时间分钟 不填默认3分钟
+  "Closetime": "5",
   //网站公告
-  "Announcement": "<p>获取验证码耐心等待，一直转圈请刷新网页，一般刷新两三次出现破解二字就成功了！</p ><p>请开启东东农场🌾，东东萌宠🐒并选择种植，无论种植的什么，最后都是无门槛红包，等级决定红包大小，最大50元。</p ><p>注:东东农场有京豆收入，以及日常任务京豆收入，佛系撸豆！建议上车后备注微信名，方便我联系各位领取大额红包。</p ><p>可玩选项:下载打开京喜APP，在_我的_开启牧场🐣，财富岛🏖</p ><p>其他不做选择，任务会添加物品到购物车，以及关注一些商品店铺，如有介意请勿上车</p >",
-  ///多青龙配置
+  "Announcement": "为提高账户的安全性，请关闭免密支付。",
+  ///开启打印等待日志卡短信验证登陆 可开启 拿到日志群里回复 默认不要填写
+  "Debug": "",
+  ///自动滑块次数5次 5次后手动滑块 可设置为0默认手动滑块
+  "AutoCaptchaCount": "5",
+  ///XDD PLUS Url  http://IP地址:端口/api/login/smslogin
+  "XDDurl": "",
+  ///xddToken
+  "XDDToken": "",
+  ///## 8. Push Plus官方网站：http": //www.pushplus.plus  只有青龙模式有用
+  ///下方填写您的Token，微信扫码登录后一对一推送或一对多推送下面的token，只填" "PUSH_PLUS_TOKEN",
+  "PUSH_PLUS_TOKEN": "",
+  //下方填写您的一对多推送的 "群组编码" ，（一对多推送下面->您的群组(如无则新建)->群组编码）
+  "PUSH_PLUS_USER": "",
+  ///青龙配置  注意对接XDD 对接芝士 设置为"Config":[]
   "Config": [
     {
-      //序号必须从1开始
+      //序号必填从1 开始
       "QLkey": 1,
       //服务器名称
       "QLName": "阿里云",
-      //青龙url
-      "QLurl": "http://59.110.24.247:5700",
+      //青龙地址
+      "QLurl": "http://42.192.9.112:5700",
       //青龙2,9 OpenApi Client ID
-      "QL_CLIENTID": "Z-9_zUJjw9i0",
+      "QL_CLIENTID": "dDC4-0Y1mTmb",
       //青龙2,9 OpenApi Client Secret
-      "QL_SECRET": "qUhmtaVynq93l_Xw6AVoVzgu",
-      //青龙面板最大ck容量
-      "QL_CAPACITY": 600,
-      //消息推送二维码
-      "QRurl":""
+      "QL_SECRET": "g1RLbVHvwAeAUuBzrz_6u-2s",
+      //CK最大数量
+      "QL_CAPACITY": 40,
+      "QRurl": ""
     }
   ]
 
